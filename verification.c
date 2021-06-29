@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 
 int verification(x) {
   if (x==X || x==O) {

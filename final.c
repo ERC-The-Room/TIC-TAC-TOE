@@ -1,8 +1,6 @@
 #include <stdio.h>
-
 int outline(int, int, char);
 char a[3][3]={'A','B','C','D','E','F','G','H','I'};
-
 #include "funct.h"
 
 int main(void) {

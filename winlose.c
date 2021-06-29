@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 int winlose() {
   for (int i=0; i<3; i++) {
