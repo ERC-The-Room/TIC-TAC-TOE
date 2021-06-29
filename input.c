@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("...........Tic-Tac-Toe.............\n");
   int a,b,x,e,f,g,h,i,j,k,l,m;
   for (int i=0; i<9;i++){
   printf("Users can type 1 or 0 as their inputs and \n can choose 1-9 places\n");
@@ -46,6 +45,6 @@ int main(void) {
   printf("     |   %d  |  %d  |  %d   | \n", k, l, m);
   printf("     |______|_____|______| \n");
   }
- 
+
   return 0;
 }
