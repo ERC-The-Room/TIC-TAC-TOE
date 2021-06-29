@@ -1,19 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(void) {
-  printf(".................Tic-Tac-Toe.............\n");
-  int a[9]={'1','2','3','4','5','6','7','8','9'};
- 
-  printf("     ________________________\n");
-  printf("     |                       |\n");
-  printf("     |    %c   |  %c  |  %c     | \n", a[0], a[1], a[2]);
-  printf("     |  ______|_____|______  | \n");
-  printf("     |    %c   |  %c  |  %c     | \n", a[3], a[4], a[5]);
-  printf("     |  ______|_____|______  | \n");
-  printf("     |    %c   |  %c  |  %c     | \n", a[6], a[7], a[8]);
-  printf("     |        |     |        | \n");
-  printf("     |_______________________|\n");
-
- 
+int outline(int i, int j, char z) {
+  a[i][j]=z;
+  printf("\n      _________________\n");
+  printf("     |     |     |     | \n");
+  printf("     |  %c  |  %c  |  %c  | \n", a[0][0], a[0][1], a[0][2]);
+  printf("     |_____|_____|_____| \n");
+  printf("     |     |     |     | \n");
+  printf("     |  %c  |  %c  |  %c  | \n", a[1][0], a[1][1], a[1][2]);
+  printf("     |_____|_____|_____| \n");
+  printf("     |     |     |     | \n");
+  printf("     |  %c  |  %c  |  %c  | \n", a[2][0], a[2][1], a[2][2]);
+  printf("     |_____|_____|_____| \n");
   return 0;
 }
