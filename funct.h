@@ -15,6 +15,13 @@ int outline(int i, int j, char z) {
   return 0;
 }
 
+// User Input
+int uinp() {
+  char inp;
+  printf("Enter the position in Capital: ");
+  scanf(" %c", &inp);
+  return inp;
+}
 
 // Input Verification
 int verification(char inp) {
