@@ -7,10 +7,9 @@ int main(void) {
   int x_axis,y_axis,n=0,m,out;
   printf("                  .........Tic-Tac-Toe.........\n");
   outline(0,0,'A');
-  printf("\nUsers can type an alphabet as their symbol and can choose 1-9 places\n X for User A and O for User B\n");
+  printf("\nUsers can type an alphabet as their symbol and can choose 1-9 places\n X for User A and O for User B\nYou are recommended to Turn On Caps Lock.\n");
   turn:
-  printf("Enter the position in Capital: ");
-  scanf(" %c", &inp);
+  inp=uinp();
   m=0;
   for (int i=0; i<3; i++) {
     for (int j=0; j<3; j++) {
@@ -24,7 +23,7 @@ int main(void) {
       }
       else if (inp!=b[i][j]) {
         m++;
-        if (m==8) {
+        if (m==9) {
           printf("The position does not exist.\n");
           goto turn;
         }
@@ -38,5 +37,6 @@ int main(void) {
     n++;
     goto turn;
   }
+
   return 0;
 }
