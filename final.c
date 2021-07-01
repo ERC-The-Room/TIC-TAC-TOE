@@ -37,6 +37,8 @@ int main(void) {
     n++;
     goto turn;
   }
-
-  return 0;
+  printf("\nEnter a number to close: ");
+  scanf("%d", &inp);
+  inp=inp-inp;
+  return inp;
 }
