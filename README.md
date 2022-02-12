@@ -17,7 +17,7 @@ TIC-TAC-TOE
 
 ```
 
-## Explinations
+## Explanations
 ### In C
 [C/final.c](./C/final.c) is the main file.
 [C/funct.h](./C/funct.h) includes all the components required by main file.
