@@ -46,6 +46,7 @@ turn:
     n++;
     goto turn;
   }
+  
   printf("\nEnter a number to close: ");
   scanf("%d", &inp);
   inp = inp - inp;
