@@ -1,5 +1,5 @@
 # TIC-TAC-TOE
-TIC-TAC-TOE game by [@DKC195](https://github.com/DKC195), [@sudipnext](https://github.com/sudipnext), [@codeXpawan](https://github.com/codeXpawan) and [@BNM100](https://github.com/BNM100)
+TIC-TAC-TOE game by [@DKC195](https://github.com/DKC195), [@sudipnext](https://github.com/sudipnext), [@pratik177](https://github.com/Pratik177),[@codeXpawan](https://github.com/codeXpawan) and [@BNM100](https://github.com/BNM100)
 
 ## Directory
 ```
